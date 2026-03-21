@@ -34,7 +34,7 @@
 
   <script>
     // Lista manual de pastas (HTML puro não consegue ler diretórios sozinho)
-    const folders = ["arquivos", "notificações"];
+    const folders = ["files/arquivos", "files/notificações"];
 
     const list = document.getElementById("folderList");
 
@@ -42,7 +42,7 @@
       const li = document.createElement("li");
       const link = document.createElement("a");
 
-      link.href = "/files/" + folder + "/";
+      link.href = folder + "/";
       link.textContent = folder;
 
       li.appendChild(link);
