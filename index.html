@@ -32,13 +32,13 @@
   <h1>Update Folders:</h1>
   <ul id="folderList"></ul>
 
-  <script>
-    // Lista manual de pastas (HTML puro não consegue ler diretórios sozinho)
-    const folders = ["files/arquivos", "files/notificações"];
-
+<script>
+fetch('./data.json')
+  .then(res => res.json())
+  .then(data => {
     const list = document.getElementById("folderList");
 
-    folders.forEach(folder => {
+    data.pastas.forEach(folder => {
       const li = document.createElement("li");
       const link = document.createElement("a");
 
@@ -48,7 +48,11 @@
       li.appendChild(link);
       list.appendChild(li);
     });
-  </script>
+  })
+  .catch(err => {
+    console.error("Erro ao carregar data.json:", err);
+  });
+</script>
 
 </body>
 </html>
