@@ -42,7 +42,7 @@
       const li = document.createElement("li");
       const link = document.createElement("a");
 
-      link.href = folder + "/";
+      link.href = window.location.pathname + folder + "/";
       link.textContent = folder;
 
       li.appendChild(link);
