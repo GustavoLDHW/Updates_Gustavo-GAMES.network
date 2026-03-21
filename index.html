@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>UPDATES</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: black;
+      color: white;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 8px 0;
+    }
+    a {
+      text-decoration: none;
+      color: aqua;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Update Folders:</h1>
+  <ul id="folderList"></ul>
+
+  <script>
+    // Lista manual de pastas (HTML puro não consegue ler diretórios sozinho)
+    const folders = ["arquivos", "notificações"];
+
+    const list = document.getElementById("folderList");
+
+    folders.forEach(folder => {
+      const li = document.createElement("li");
+      const link = document.createElement("a");
+
+      link.href = folder + "/";
+      link.textContent = folder;
+
+      li.appendChild(link);
+      list.appendChild(li);
+    });
+  </script>
+
+</body>
+</html>
