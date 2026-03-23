@@ -1,3 +1,5 @@
 [texts]
 msg0="Este texto serve só para teste, não á nenhuma informação ligeiramente importante"
 version0="1.3.0.0(beta4)"
+msg1="Este segundo texto também serve só para teste, e vejo que funcionou"
+version1="1.3.0.0(alpha)"
