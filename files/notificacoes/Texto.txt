@@ -1,1 +1,3 @@
-Este texto serve só para teste, não á nenhuma informação ligeiramente importante
+[texts]
+msg0="Este texto serve só para teste, não á nenhuma informação ligeiramente importante"
+version0="1.3.0.0"
