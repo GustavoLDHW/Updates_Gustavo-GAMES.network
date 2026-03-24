@@ -1,4 +1,4 @@
 [texts]
-msg0="Bem Vindo a nova Versão de HELLO WORLD, o que tem de novo:\n \n   °Nova Área com Novas Fases\n \n   °Novas Conquistas\n \n   °Erro nas CONFIGURAÇÕES corrigido\n \n   °E Fase Ninja Secreta Terminada"
+msg0="Bem Vindo a nova Versão de HELLO WORLD, o que tem de novo:\n \n °Nova Área com Novas Fases\n \n °Novas Conquistas\n \n °Erro nas CONFIGURAÇÕES corrigido\n \n °E Fase Ninja Secreta Terminada"
 version0="1.3.0.0(beta5)"
 img0="img0.png"
