@@ -1,4 +1,4 @@
 [texts]
-msg0=""
-version0="1.3.0.0(beta5)"
-img0="img1.png"
+msg1=""
+version1="1.3.0.0(beta5)"
+img1="img1.png"
