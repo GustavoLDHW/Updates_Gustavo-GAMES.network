@@ -1,2 +1,2 @@
 [number]
-number_text_files="6"
+number_text_files="3"
